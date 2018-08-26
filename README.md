@@ -1,5 +1,5 @@
 # ACM
-Puzzles from ACM Online Judges
+Puzzles from ACM Online Judges and please visit my blog for Computer Science posts: [https://helloacm.com](https://helloacm.com).
 
 # Leetcode
 https://leetcode.com/justyy/
