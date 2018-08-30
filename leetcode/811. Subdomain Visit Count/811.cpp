@@ -6,7 +6,6 @@ public:
     vector<string> subdomainVisits(vector<string>& cpdomains) {
         unordered_map<string, int> count;
         for (const auto &s: cpdomains) {
-            vector<string> str;
             auto spaceIndex = s.find(" ");
             auto num_s = s.substr(0, spaceIndex);
             int num = atoi(num_s.c_str());
