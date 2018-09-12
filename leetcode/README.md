@@ -1,10 +1,20 @@
-# Algorithms
+| ID | Type | Question   |      Solutions      |
+|:----:|:----------:|:-------------:|:------:|
+| 13 | Algorithms | [Roman to Integer](https://helloacm.com/how-to-convert-roman-to-integer-in-cc/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/13. Roman to Integer) | [Leetcode](https://leetcode.com/problems/roman-to-integer/) |
+| 205 | Algorithms | [Isomorphic Strings](https://helloacm.com/how-to-check-if-two-strings-are-isomorphic/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/205. Isomorphic Strings) | [Leetcode](https://leetcode.com/problems/isomorphic-strings/) |
+| 266 | Algorithms | [Palindrome Permutation](https://helloacm.com/how-to-check-any-string-is-palindrome-from-its-permutation/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/266. Palindrome Permutation) | [Leetcode](https://leetcode.com/problems/palindrome-permutation/) |
+| 280 | Algorithms | [Wiggle Sort](https://helloacm.com/the-wiggle-sort-algorithm-on-array-of-integers/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/280. Wiggle Sort) | [Leetcode](https://leetcode.com/problems/wiggle-sort/) |
+| 347 | Algorithms | [Top K Frequent Elements](https://helloacm.com/how-to-find-top-k-frequent-elements-via-priority-queue-or-sorting/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/347. Top K Frequent Elements) | [Leetcode](https://leetcode.com/problems/top-k-frequent-elements/) |
+| 415 | Algorithms | [Add Strings](https://helloacm.com/how-to-add-two-strings-numerically/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/415. Add Strings) | [Leetcode](https://leetcode.com/problems/add-strings/) |
+| 434 | Algorithms | [Number of Segments in a String](https://helloacm.com/how-to-count-number-of-segments-in-a-string/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/434. Number of Segments in a String) | [Leetcode](https://leetcode.com/problems/number-of-segments-in-a-string/) |
+| 451 | Algorithms | [Sort Characters By Frequency](https://helloacm.com/how-to-sort-characters-by-frequency/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/451. Sort Characters By Frequency) | [Leetcode](https://leetcode.com/problems/sort-characters-by-frequency/) |
+| 584 | Database | Find Customer Referee | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/584. Find Customer Referee) |  N/A  |
+| 619 | Database | Biggest Single Number | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/619. Biggest Single Number) |  N/A  |
+| 709 | Algorithms | [To Lower Case](https://helloacm.com/c-c-coding-exercisse-how-to-implement-tolowercase-function/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/709. To Lower Case) | [Leetcode](https://leetcode.com/problems/to-lower-case/description/) |
+| 811 | Algorithms | [Subdomain Visit Count](https://helloacm.com/c-coding-exercise-subdomain-visit-count/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/811. Subdomain Visit Count) | [Leetcode](https://leetcode.com/problems/subdomain-visit-count/) |
+| 812 | Algorithms | [Largest Triangle Area](https://helloacm.com/how-to-find-largest-triangle-area-using-shoelace-formula/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/812. Largest Triangle Area) | [Leetcode](https://leetcode.com/problems/largest-triangle-area/) |
+| 821 | Algorithms | [Shortest Distance to a Character](https://helloacm.com/how-to-compute-shortest-distance-to-a-character-in-a-string/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/821. Shortest Distance to a Character) | [Leetcode](https://leetcode.com/problems/shortest-distance-to-a-character/) |
+| 867 | Algorithms | [Transpose Matrix](https://helloacm.com/how-to-transpose-a-2d-matrix/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/867. Transpose Matrix) | [Leetcode](https://leetcode.com/problems/transpose-matrix/description/) |
+| 896 | Algorithms | [Monotonic Array](https://helloacm.com/how-to-check-if-an-array-is-monotonic/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/896. Monotonic Array) | [Leetcode](https://leetcode.com/problems/monotonic-array/) |
 
-| ID | Question   |      Solution      |  Difficulty |
-|:----:|:----------:|:-------------:|:------:|
-| 13 | [Roman to Integer](https://helloacm.com/how-to-convert-roman-to-integer-in-cc/) |  [Solution](https://github.com/DoctorLai/ACM/tree/master/leetcode/13.%20Roman%20to%20Integer) | Easy |
-    
-# MySQL
-| ID | Question   |      Solution      |  Difficulty |
-|:----:|:----------:|:-------------:|:------:|
-| 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) |  [Solution](https://github.com/DoctorLai/ACM/blob/master/leetcode/584.%20Find%20Customer%20Referee/584.sql) | Easy |
+Total *16* Questions: *2* Database, *14* Algorithms
