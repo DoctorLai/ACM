@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo '| ID | Type | Question   |      Solutions      |'
-echo '|:----:|:----------:|:-------------:|:------:|'
+echo '| ID | Type | Blog | Solutions | Leetcode |'
+echo '|:----:|:----:|:-------:|:----:|:----:|'
 
 function trim {
     local trimmed="$1"
@@ -29,7 +29,8 @@ function process {
   local question=$(echo $1 | awk '{for (i=2; i<=NF; i++) printf ("%s ",$i);}' )
   question=$(trim "$question")
   local sc=$(ls -1q "$1"/ | wc -l)
-  local solutions="[$sc](https://github.com/DoctorLai/ACM/tree/master/leetcode/$1)"
+  local urlencoded=$(echo "$1" | sed -e 's/ /%20/g')
+  local solutions="[$sc](https://github.com/DoctorLai/ACM/tree/master/leetcode/$urlencoded)"
   local first=$(ls -1q "$1"/ | head -1)
   local leetcodeurl=$(cat "$1/$first" | grep leetcode | awk '{print $2}')
   local blog=$(cat "$1/$first" | grep helloacm | awk '{print $2}')
