@@ -1,17 +1,18 @@
 #!/bin/bash
 
-echo '| ID | Type | Blog | Solutions | Leetcode |'
-echo '|:----:|:----:|:-------:|:----:|:----:|'
+function printHeader {
+  echo "# $1"
+  echo '| ID | Type | Blog | Solutions | Leetcode |'
+  echo '|:----:|:----:|:-------:|:----:|:----:|'
+}
 
 function trim {
-    local trimmed="$1"
-
-    # Strip leading space.
-    trimmed="${trimmed## }"
-    # Strip trailing space.
-    trimmed="${trimmed%% }"
-
-    echo "$trimmed"
+  local trimmed="$1"
+  # Strip leading space.
+  trimmed="${trimmed## }"
+  # Strip trailing space.
+  trimmed="${trimmed%% }"
+  echo "$trimmed"
 }
 
 count_sql=0
@@ -21,9 +22,15 @@ function process {
   local id=`echo $1 | awk '{print substr($1, 0, length($1)-1);}'`
   if [[ -n $(find "$1" -maxdepth 1 -name \*.sql -print -quit) ]]; then
     local type=Database
-    count_sql=$((count_sql+1))
   else
     local type=Algorithms
+  fi
+  if [ "$type" != "$2" ]; then
+    return 
+  fi
+  if [ "$type" == "Database" ]; then
+    count_sql=$((count_sql+1))
+  else
     count_algorithms=$((count_algorithms+1))
   fi
   local question=$(echo $1 | awk '{for (i=2; i<=NF; i++) printf ("%s ",$i);}' )
@@ -45,10 +52,21 @@ function process {
   echo "| $id | $type | $question | $solutions | $leetcode |"
 }
 
+# Process for Algorithms
+printHeader "Algorithms"
 for i in *; do
   if [ -d "$i" ]; then
-    process "$i"
+    process "$i" "Algorithms"
   fi    
+done
+
+echo ""
+# Process for Database
+printHeader "Database"
+for i in *; do
+  if [ -d "$i" ]; then
+    process "$i" "Database"
+  fi
 done
 
 echo
