@@ -1,5 +1,5 @@
 // https://helloacm.com/c-c-coding-exercisse-how-to-implement-tolowercase-function/
-// https://leetcode.com/problems/to-lower-case/description/
+// https://leetcode.com/problems/to-lower-case/
 
 char* toLowerCase(char* str) {
     char* s = str;
