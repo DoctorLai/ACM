@@ -38,6 +38,7 @@ function process {
   local sc=$(ls -1q "$1"/ | wc -l)
   local urlencoded=$(echo "$1" | sed -e 's/ /%20/g')
   local solutions="[$sc](https://github.com/DoctorLai/ACM/tree/master/leetcode/$urlencoded)"
+  local ext=$(ls -1 "$1" | sed 's/.*\.//' | sort -u | tr "\n" " ")
   local first=$(ls -1q "$1"/ | head -1)
   local leetcodeurl=$(cat "$1/$first" | grep leetcode | awk '{print $2}')
   local blog=$(cat "$1/$first" | grep helloacm | awk '{print $2}')
@@ -49,8 +50,8 @@ function process {
   if [ ! -z $leetcodeurl ]; then
     leetcode="[Leetcode]($leetcodeurl)"
   fi
-  echo "| $id | $type | $question | $solutions | $leetcode |"
-}
+  echo "| $id | $type | $question | $solutions<br/>$ext | $leetcode |"
+}                                               
 
 # Process for Algorithms
 printHeader "Algorithms"
