@@ -31,6 +31,7 @@ function process {
   local timusurl=$(cat "$1/$first" | grep timus | awk '{print $2}')
   local blog=$(cat "$1/$first" | grep helloacm | awk '{print $2}')
   blog=$(trim $blog)
+  timusurl=$(trim $timusurl)
   if [ ! -z "$blog" ]; then
     question="[$question]($blog)"
   fi   
@@ -42,7 +43,7 @@ function process {
 }                                               
 
 # Process for Algorithms
-printHeader "Algorithms"
+printHeader "Algorithms (http://acm.timus.ru)"
 for i in *; do
   if [ -d "$i" ]; then
     process "$i"
