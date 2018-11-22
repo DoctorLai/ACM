@@ -43,18 +43,19 @@ function process {
   local leetcodeurl=$(cat "$1/$first" | grep leetcode | awk '{print $2}')
   local blog=$(cat "$1/$first" | grep helloacm | awk '{print $2}')
   blog=$(trim $blog)
-  if [ ! -z $blog ]; then
+  leetcodeurl=$(trim $leetcodeurl)
+  if [ ! -z "$blog" ]; then
     question="[$question]($blog)"
   fi   
   local leetcode=" N/A "
-  if [ ! -z $leetcodeurl ]; then
+  if [ ! -z "$leetcodeurl" ]; then
     leetcode="[Leetcode]($leetcodeurl)"
   fi
   echo "| $id | $type | $question | $solutions<br/>$ext | $leetcode |"
 }                                               
 
 # Process for Algorithms
-printHeader "Algorithms"
+printHeader "Algorithms (https://leetcode.com)"
 for i in *; do
   if [ -d "$i" ]; then
     process "$i" "Algorithms"
