@@ -14,3 +14,6 @@ http://codeforces.com/profile/DoctorLai
 
 # Hacker Rank
 https://www.hackerrank.com/zhihua_lai?hr_r=1
+
+# Categories
+1. [Dynamic Programming](https://github.com/DoctorLai/ACM/blob/master/dynamic-programming.md)
