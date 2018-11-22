@@ -14,6 +14,3 @@ http://codeforces.com/profile/DoctorLai
 
 # Hacker Rank
 https://www.hackerrank.com/zhihua_lai?hr_r=1
-
-# Dynamic Programming
-1. [1017. Staircases](http://acm.timus.ru/problem.aspx?space=1&num=1017) - [solution](https://helloacm.com/how-to-break-integers-staircases-using-dynamic-programming/)
