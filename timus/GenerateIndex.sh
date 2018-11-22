@@ -31,11 +31,11 @@ function process {
   local timusurl=$(cat "$1/$first" | grep timus | awk '{print $2}')
   local blog=$(cat "$1/$first" | grep helloacm | awk '{print $2}')
   blog=$(trim $blog)
-  if [ ! -z $blog ]; then
+  if [ ! -z "$blog" ]; then
     question="[$question]($blog)"
   fi   
   local timus=" N/A "
-  if [ ! -z $timusurl ]; then
+  if [ ! -z "$timusurl" ]; then
     timus="[timus]($timusurl)"
   fi
   echo "| $id | $type | $question | $solutions<br/>$ext | $timus |"
