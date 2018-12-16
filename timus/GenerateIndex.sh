@@ -12,6 +12,8 @@ function trim {
   trimmed="${trimmed## }"
   # Strip trailing space.
   trimmed="${trimmed%% }"
+  # Strip tailling spaces.
+  trimmed=${trimmed%%[[:space:]]}
   echo "$trimmed"
 }
 
