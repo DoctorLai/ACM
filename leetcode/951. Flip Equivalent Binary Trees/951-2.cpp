@@ -1,6 +1,7 @@
 // https://helloacm.com/how-to-flip-equivalent-binary-trees/
 // https://leetcode.com/problems/flip-equivalent-binary-trees/
 
+/*
 * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
