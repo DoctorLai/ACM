@@ -1,4 +1,4 @@
-// https://helloacm.com/the-intersection-algorithm-of-two-arrays-using-hash-maps-in-c-java-javascript/
+// https://helloacm.com/how-to-compute-the-intersection-of-two-arrays-using-sorting-two-pointer-algorithm/
 // https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 class Solution {
