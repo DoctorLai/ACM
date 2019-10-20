@@ -14,6 +14,6 @@ public:
                 return t;
             }
         }
-        return 0;
+        return arr[0];
     }
 };
