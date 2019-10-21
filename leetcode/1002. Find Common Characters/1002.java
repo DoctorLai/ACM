@@ -1,5 +1,6 @@
 // https://helloacm.com/how-to-find-common-characters-in-an-array-of-strings/
 // https://leetcode.com/problems/find-common-characters/
+// EASY, STRING, ARRAY
 
 class Solution {
     public List<String> commonChars(String[] A) {
