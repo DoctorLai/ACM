@@ -1,5 +1,6 @@
 // https://helloacm.com/maximize-sum-of-array-after-k-negations-using-greedy-algorithm-via-priority-queue-min-element/
 // https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/
+// EASY, PRIORITY QUEUE, ARRAY
 
 class Solution {
 public:
