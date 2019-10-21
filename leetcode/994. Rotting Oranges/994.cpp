@@ -1,5 +1,6 @@
 // https://helloacm.com/breadth-first-search-algorithm-to-solve-puzzle-rotting-oranges-in-a-grid/
 // https://leetcode.com/problems/rotting-oranges/
+// EASY, BFS
 
 class Solution {
 public:
