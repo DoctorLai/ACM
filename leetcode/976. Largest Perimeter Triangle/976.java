@@ -1,5 +1,6 @@
 // https://helloacm.com/greedy-algorithm-to-find-the-largest-perimeter-triangle-by-sorting/
 // https://leetcode.com/problems/largest-perimeter-triangle/
+// EASY, ARRAY, TRIANGLE, SORTING, GREEDY
 
 class Solution {
     public int largestPerimeter(int[] A) {
