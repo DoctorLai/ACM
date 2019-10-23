@@ -1,5 +1,6 @@
 // https://helloacm.com/how-to-check-if-a-binary-tree-is-balanced-top-down-and-bottom-up-recursion/
 // https://leetcode.com/problems/balanced-binary-tree/
+// EASY, RECURSION, BINARY TREE
 
 /**
  * Definition for a binary tree node.
