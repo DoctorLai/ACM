@@ -1,5 +1,6 @@
 // https://helloacm.com/passengers-pick-up-and-drop-off-algorithms-car-pooling-via-greedy-algorithm/
 // https://leetcode.com/problems/car-pooling/
+// MEDIUM, GREEDY, HASH MAP
 
 class Solution {
 public:
