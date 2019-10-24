@@ -2,8 +2,8 @@
 
 function printHeader {
   echo "# $1"
-  echo '| ID | Type | Blog | Solutions | Leetcode |'
-  echo '|:----:|:----:|:-------:|:----:|:----:|'
+  echo '| ID | Type | Blog | Solutions | Leetcode | Diffculty | TAGS |'
+  echo '|:----:|:----:|:-------:|:----:|:----:|:----:|:----:|'
 }
 
 function trim {
@@ -44,6 +44,7 @@ function process {
   local first=$(ls -1q "$1"/ | head -1)
   local leetcodeurl=$(cat "$1/$first" | grep leetcode | awk '{print $2}')
   local blog=$(cat "$1/$first" | grep helloacm | awk '{print $2}')
+  diff=$(cat "$1/$first" | grep "^//" | grep -v "http" | cut -d, -f1 | tr -d "/ ")
   blog=$(trim $blog)
   leetcodeurl=$(trim $leetcodeurl)
   if [ ! -z "$blog" ]; then
@@ -53,7 +54,15 @@ function process {
   if [ ! -z "$leetcodeurl" ]; then
     leetcode="[Leetcode]($leetcodeurl)"
   fi
-  echo "| $id | $type | $question | $solutions<br/>$ext | $leetcode |"
+  
+  local x=""
+  for i in $(ls -1q "$1"); do
+      local meta=$(cat "$1/$i" | grep "^//" | grep -v "http")
+      x+=$(echo $meta | grep "^//" | grep -v "http" | cut -d, -f2-)
+      x+=","
+  done
+  tags=$(echo $x | tr "," "\n" | sort | uniq)  
+  echo "| $id | $type | $question | $solutions<br/>$ext | $leetcode | $diff | $tags |"
 }                                               
 
 # Process for Algorithms
