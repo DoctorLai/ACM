@@ -1,5 +1,6 @@
 // https://helloacm.com/single-row-keyboard-algorithms-to-estimate-the-finger-moving-time/
 // https://leetcode.com/problems/single-row-keyboard/submissions/
+// EASY, STRING, HASH MAP
 
 class Solution {
 public:
