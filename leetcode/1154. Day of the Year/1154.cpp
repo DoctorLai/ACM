@@ -1,5 +1,6 @@
 // https://helloacm.com/how-to-compute-the-day-of-the-year/
 // https://leetcode.com/problems/day-of-the-year/
+// EASY, MATH, DATE
 
 class Solution {
 public:
