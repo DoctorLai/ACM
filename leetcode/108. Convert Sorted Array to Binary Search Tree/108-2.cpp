@@ -1,5 +1,6 @@
 // https://helloacm.com/how-to-convert-sorted-array-to-balanced-binary-search-tree/
 // https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+// EASY, RECURSION, BINARY TREE
 
 /**
  * Definition for a binary tree node.
