@@ -2,8 +2,8 @@
 
 function printHeader {
   echo "# $1"
-  echo '| ID | Blog | Solutions | Leetcode | Diffculty | Tags |'
-  echo '|:----:|:----:|:-------:|:----:|:----:|:----:|'
+  echo '| ID | Blog | Solutions | Diffculty | Tags |'
+  echo '|:----:|:----:|:-------:|:----:|:----:|'
 }
 
 function trim {
@@ -62,11 +62,11 @@ function process {
       x+=","
   done
   tags=$(echo $x | awk '{print tolower($0)}' | tr "," "\n" | awk '{$1=$1};1' | sort | uniq -i | sed "1d" | sed -z 's/\n/<BR>/g')
-  echo "| $id | $question | $solutions<br/>$ext | $leetcode | $diff | $tags |"
+  echo "| [$id]($leetcodeurl) | $question | $solutions<br/>$ext | $diff | $tags |"
 }                                               
 
 # Process for Algorithms
-printHeader "Algorithms (https://leetcode.com)"
+printHeader "Algorithms"
 for i in *; do
   if [ -d "$i" ]; then
     process "$i" "Algorithms"
