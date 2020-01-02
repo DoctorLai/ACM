@@ -3,22 +3,15 @@
 
 class Solution {
 public:
-    vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> r;
+    int totalNQueens(int n) {
+        int r = 0;
         dfs({}, n, r);
         return r;
     }
- 
 private:
-    void dfs(vector<int> cur, int n, vector<vector<string>> &r) {
+    void dfs(vector<int> cur, int n, int &r) {
         if (cur.size() == n) {
-            vector<string> ans;
-            for (const auto &s: cur) {
-                string row(n, '.');
-                row[s] = 'Q';
-                ans.push_back(row);
-            }
-            r.push_back(ans);
+            ++ r;
             return;
         }
         for (int i = 0; i < n; ++ i) {
@@ -40,5 +33,5 @@ private:
             if (x == cur[i]) return false;
         }
         return true;
-    }
+    }    
 };
