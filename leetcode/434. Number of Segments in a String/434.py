@@ -1,7 +1,5 @@
-"""
-https://helloacm.com/how-to-count-number-of-segments-in-a-string/
-https://leetcode.com/problems/number-of-segments-in-a-string/
-"""
+# https://helloacm.com/how-to-count-number-of-segments-in-a-string/
+# https://leetcode.com/problems/number-of-segments-in-a-string/
 
 import re
 
