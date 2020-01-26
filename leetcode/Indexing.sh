@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./GenerateIndex.sh > README.md
+python3 ./list.py > README.md
 git add README.md
 git commit -m "Index Regenerated $(date)"
 git pull origin master
