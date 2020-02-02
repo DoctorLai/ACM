@@ -1,5 +1,6 @@
 // https://helloacm.com/dynamic-programming-algorithm-to-count-vowels-permutation/
 // https://leetcode.com/problems/count-vowels-permutation/
+// HARD, DP
 
 class Solution {
 public:
