@@ -1,3 +1,7 @@
+// https://helloacm.com/algorithm-to-count-the-largest-group-of-digit-sums/
+// https://leetcode.com/problems/count-largest-group/
+// EASY
+
 class Solution {
 public:
     int countLargestGroup(int n) {
