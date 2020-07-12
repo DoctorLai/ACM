@@ -1,5 +1,6 @@
 # https://helloacm.com/algorithm-to-count-the-number-of-substrings-with-only-1s/
 # https://leetcode.com/problems/number-of-substrings-with-only-1s/
+# MEDIUM, MATH
 
 class Solution:
     def numSub(self, s: str) -> int:
