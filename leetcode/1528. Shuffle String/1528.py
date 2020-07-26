@@ -1,5 +1,6 @@
 # https://helloacm.com/algorithm-to-shuffle-string-in-python3-according-to-index/
 # https://leetcode.com/problems/shuffle-string/
+# EASY, STRING
 
 class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:
