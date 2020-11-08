@@ -1,0 +1,6 @@
+
+# Tag: BINARY SEARCH
+| ID | Blog | Solutions | Diffculty | Tags |
+|:----:|:----:|:-------:|:----:|:----:|
+| [1365](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/submissions/) | [How Many Numbers Are Smaller Than the Current Number](https://helloacm.com/algorithms-to-count-how-many-numbers-are-smaller-than-the-current-number/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number)<br/>.cpp | EASY | BINARY SEARCH |
+| [1237](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/) | [Find Positive Integer Solution for a Given Equation](https://helloacm.com/how-to-find-positive-integer-solution-for-a-given-equation-using-bruteforce-two-pointer-or-binary-search-algorithms/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/1237.%20Find%20Positive%20Integer%20Solution%20for%20a%20Given%20Equation)<br/>.cpp | EASY | TWO POINTER <BR/> BINARY SEARCH |

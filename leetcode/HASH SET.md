@@ -1,0 +1,9 @@
+
+# Tag: HASH SET
+| ID | Blog | Solutions | Diffculty | Tags |
+|:----:|:----:|:-------:|:----:|:----:|
+| [217]() | [Contains Duplicate](https://helloacm.com/algorithms-to-check-if-array-contains-duplicate-elements/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/217.%20Contains%20Duplicate)<br/>.js | EASY | HASH SET |
+| [1506](https://leetcode.com/problems/find-root-of-n-ary-tree/) | [Find Root of N-Ary Tree](https://helloacm.com/how-to-find-root-of-n-ary-tree-using-the-hash-set/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1506.%20Find%20Root%20of%20N-Ary%20Tree)<br/>.cpp | MEDIUM | HASH SET |
+| [1539](https://leetcode.com/problems/kth-missing-positive-number/) | [Kth Missing Positive Number](https://helloacm.com/algorithm-to-find-the-kth-missing-positive-number-in-array/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1539.%20Kth%20Missing%20Positive%20Number)<br/>.cpp | EASY | HASH SET |
+| [874](https://leetcode.com/problems/walking-robot-simulation/) | [Walking Robot Simulation](https://helloacm.com/walking-robot-simulation-algorithm-with-obstacles-detection/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/874.%20Walking%20Robot%20Simulation)<br/>.cpp | EASY | SIMULATION <BR/> HASH SET |
+| [47](https://leetcode.com/problems/permutations-ii/) | [Permutations II](https://helloacm.com/the-unique-permutations-algorithm-with-duplicate-elements/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/47.%20Permutations%20II)<br/>.cpp | MEDIUM | PERMUTATION <BR/> HASH SET <BR/> DFS |
