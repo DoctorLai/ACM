@@ -12,6 +12,19 @@ diff_cat = {}
 lang_cat = {}
 tags_cat = {}
 
+def link(name):
+    name = name.strip()
+    return "[" + name + "](https://github.com/DoctorLai/ACM/blob/master/leetcode/" + name.replace(" ", "%20") + ".md)"
+
+def insert(x):
+    langs = ""
+    for y in x['langs']:
+        langs += link(y) + "<BR/>"
+    tags = "";
+    for y in x['tags']:
+        tags += link(y) + "<BR/>"
+    return "| [" + x['id'] + "](" + x['leetcode'] + ") | [" + x['title'] + "](" + x['blog'] + ") | [" + x['count'] + "](" + x['github'] + ")<br/>" + langs + " | " + link(x['diff']) + " | " + tags + " |"
+
 def process(folder):
     #print("Processing %s " % folder)
     s = folder[2:].split('.')
@@ -95,7 +108,7 @@ Algorithm = 0
 for x in questions:
     if x['type'] == "Algorithm":
         Algorithm += 1
-        print("| [" + x['id'] + "](" + x['leetcode'] + ") | [" + x['title'] + "](" + x['blog'] + ") | [" + x['count'] + "](" + x['github'] + ")<br/>" + " <BR/> ".join(x['langs']) + " | " + x['diff'] + " | " + " <BR/> ".join(x['tags']) + " |")
+        print(insert(x))
 
 print("""
 # Database
@@ -106,7 +119,7 @@ Database = 0
 for x in questions:
     if x['type'] == "Database":
         Database += 1
-        print("| [" + x['id'] + "](" + x['leetcode'] + ") | [" + x['title'] + "](" + x['blog'] + ") | [" + x['count'] + "](" + x['github'] + ")<br/>" + " <BR/> ".join(x['langs']) + " | " + x['diff'] + " | " + " <BR/> ".join(x['tags']) + " |")
+        print(insert(x))
 
 print("\n\n")
 print("Total *" + str(Algorithm + Database) + "* Questions: *" + str(Database) + "* Database, *" + str(Algorithm) + "* Algorithms\n\n")
@@ -118,9 +131,34 @@ for diff in ["MEDIUM", "EASY", "HARD"]:
     s = """
 # Difficulty: """ + diff + """
 | ID | Blog | Solutions | Diffculty | Tags |
-|:----:|:----:|:-------:|:----:|:----:|"""
+|:----:|:----:|:-------:|:----:|:----:|
+"""
     for x in diff_cat[diff]:        
-        s += "| [" + x['id'] + "](" + x['leetcode'] + ") | [" + x['title'] + "](" + x['blog'] + ") | [" + x['count'] + "](" + x['github'] + ")<br/>" + " <BR/> ".join(x['langs']) + " | " + x['diff'] + " | " + " <BR/> ".join(x['tags']) + " |\n"
+        s += insert(x) + "\n"
     file = open(diff + ".md", "w")
     file.write(s)
-    file.close()       
+    file.close()   
+    
+for lang in lang_cat:
+    s = """
+# Programming Language: """ + lang + """
+| ID | Blog | Solutions | Diffculty | Tags |
+|:----:|:----:|:-------:|:----:|:----:|
+"""
+    for x in lang_cat[lang]:        
+        s += insert(x) + "\n"
+    file = open(lang + ".md", "w")
+    file.write(s)
+    file.close()      
+    
+for tag in tags_cat:
+    s = """
+# Tag: """ + tag + """
+| ID | Blog | Solutions | Diffculty | Tags |
+|:----:|:----:|:-------:|:----:|:----:|
+"""
+    for x in tags_cat[tag]:        
+        s += insert(x) + "\n"
+    file = open(tag + ".md", "w")
+    file.write(s)
+    file.close()            
