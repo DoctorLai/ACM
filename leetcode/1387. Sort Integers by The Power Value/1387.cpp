@@ -1,6 +1,6 @@
 // https://helloacm.com/dynamic-programming-memoization-to-sort-integers-by-the-power-value/
 // https://leetcode.com/problems/sort-integers-by-the-power-value/submissions/
-// MEDIUM, RECURSION, DYNAMIC PROGRAMMING
+// MEDIUM, RECURSION, DP
 
 class Solution {
 public:
