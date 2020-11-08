@@ -1,7 +1,8 @@
 
 # Difficulty: EASY
 | ID | Blog | Solutions | Diffculty | Tags |
-|:----:|:----:|:-------:|:----:|:----:|| [1260](https://leetcode.com/problems/shift-2d-grid/) | [Shift 2D Grid](https://helloacm.com/algorithms-to-shift-a-2d-grid-matrix-in-place/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1260.%20Shift%202D%20Grid)<br/>.cpp | EASY | GRID <BR/> SIMULATION |
+|:----:|:----:|:-------:|:----:|:----:|
+| [1260](https://leetcode.com/problems/shift-2d-grid/) | [Shift 2D Grid](https://helloacm.com/algorithms-to-shift-a-2d-grid-matrix-in-place/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1260.%20Shift%202D%20Grid)<br/>.cpp | EASY | GRID <BR/> SIMULATION |
 | [5453](https://leetcode.com/problems/running-sum-of-1d-array/) | [Running Sum of 1d Array](https://helloacm.com/how-to-compute-running-sum-of-1d-array-using-stdpartial_sum-in-c/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/5453.%20Running%20Sum%20of%201d%20Array)<br/>.cpp | EASY | PREFIX SUM |
 | [994](https://leetcode.com/problems/rotting-oranges/) | [Rotting Oranges](https://helloacm.com/breadth-first-search-algorithm-to-solve-puzzle-rotting-oranges-in-a-grid/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/994.%20Rotting%20Oranges)<br/>.cpp | EASY | BFS |
 | [1502](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [Can Make Arithmetic Progression From Sequence](https://helloacm.com/can-we-make-arithmetic-progression-from-sequence-of-numbers/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence)<br/>.cpp | EASY | SORTING |
