@@ -1,6 +1,6 @@
 // https://helloacm.com/compute-the-minimum-value-to-get-positive-step-by-step-sum-using-prefix-sum-algorithm/
 // https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/
-// PREFIX, EASY
+// EASY, PREFIX SUM
 
 class Solution {
 public:
