@@ -1,6 +1,6 @@
 // https://helloacm.com/find-the-queens-that-can-attack-the-king/
 // https://leetcode.com/problems/queens-that-can-attack-the-king/
-// MEDIUM, ARRAY, HASHSET
+// MEDIUM, ARRAY, HASH SET
 
 class Solution {
 public:

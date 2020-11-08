@@ -1,6 +1,6 @@
 // https://helloacm.com/walking-robot-simulation-algorithm-with-obstacles-detection/
 // https://leetcode.com/problems/walking-robot-simulation/
-// EASY, SIMULATION, HASH SET
+// EASY, SIMULATION, HASH MAP
 
 class Solution {
 public:

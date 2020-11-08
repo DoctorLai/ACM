@@ -1,6 +1,6 @@
 // https://helloacm.com/compute-the-largest-substring-between-two-equal-characters-using-hash-table/
 // https://leetcode.com/problems/largest-substring-between-two-equal-characters/
-// EASY, HASH TABLE
+// EASY, HASH MAP
 
 class Solution {
 public:

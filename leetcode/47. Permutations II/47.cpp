@@ -1,6 +1,6 @@
 // https://helloacm.com/the-unique-permutations-algorithm-with-duplicate-elements/
 // https://leetcode.com/problems/permutations-ii/
-// MEDIUM, PERMUTATION, DFS, HASH SET
+// MEDIUM, PERMUTATION, DFS, HASH MAP
 
 class Solution {
 public:

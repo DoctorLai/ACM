@@ -1,6 +1,6 @@
 // https://helloacm.com/algorithm-to-find-the-kth-missing-positive-number-in-array/
 // https://leetcode.com/problems/kth-missing-positive-number/
-// EASY, HASH SET
+// EASY, HASH MAP
 
 class Solution {
 public:

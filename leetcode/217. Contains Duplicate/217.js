@@ -1,5 +1,5 @@
 // https://helloacm.com/algorithms-to-check-if-array-contains-duplicate-elements/
-// EASY, HASH SET
+// EASY, HASH MAP
 
 /**
  * @param {number[]} nums

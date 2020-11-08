@@ -1,6 +1,6 @@
 // https://helloacm.com/how-to-find-root-of-n-ary-tree-using-the-hash-set/
 // https://leetcode.com/problems/find-root-of-n-ary-tree/
-// MEDIUM, HASH SET
+// MEDIUM, HASH MAP
 
 /*
 // Definition for a Node.
