@@ -2,4 +2,4 @@
 # Tag: TRIANGLE
 | ID | Blog | Solutions | Diffculty | Tags |
 |:----:|:----:|:-------:|:----:|:----:|
-| [976](https://leetcode.com/problems/largest-perimeter-triangle/) | [Largest Perimeter Triangle](https://helloacm.com/greedy-algorithm-to-find-the-largest-perimeter-triangle-by-sorting/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/976.%20Largest%20Perimeter%20Triangle)<br/>.cpp <BR/> .java | [EASY](https://github.com/DoctorLai/ACM/blob/master/leetcode/EASY.md) | SORTING <BR/> TRIANGLE <BR/> ARRAY <BR/> GREEDY |
+| [976](https://leetcode.com/problems/largest-perimeter-triangle/) | [Largest Perimeter Triangle](https://helloacm.com/greedy-algorithm-to-find-the-largest-perimeter-triangle-by-sorting/) | [2](https://github.com/DoctorLai/ACM/tree/master/leetcode/976.%20Largest%20Perimeter%20Triangle)<br/>.cpp <BR/> .java | [EASY](https://github.com/DoctorLai/ACM/blob/master/leetcode/EASY.md) | TRIANGLE <BR/> SORTING <BR/> GREEDY <BR/> ARRAY |
