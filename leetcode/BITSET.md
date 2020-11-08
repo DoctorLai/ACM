@@ -2,4 +2,4 @@
 # Tag: BITSET
 | ID | Blog | Solutions | Diffculty | Tags |
 |:----:|:----:|:-------:|:----:|:----:|
-| [1400](https://leetcode.com/problems/construct-k-palindrome-strings/) | [Construct K Palindrome Strings](https://helloacm.com/can-we-construct-k-palindrome-strings/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1400.%20Construct%20K%20Palindrome%20Strings)<br/>.cpp | MEDIUM | PALINDROME <BR/> BITSET |
+| [1400](https://leetcode.com/problems/construct-k-palindrome-strings/) | [Construct K Palindrome Strings](https://helloacm.com/can-we-construct-k-palindrome-strings/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1400.%20Construct%20K%20Palindrome%20Strings)<br/>.cpp | MEDIUM | BITSET <BR/> PALINDROME |

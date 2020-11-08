@@ -2,7 +2,7 @@
 # Tag: SIMULATION
 | ID | Blog | Solutions | Diffculty | Tags |
 |:----:|:----:|:-------:|:----:|:----:|
-| [1260](https://leetcode.com/problems/shift-2d-grid/) | [Shift 2D Grid](https://helloacm.com/algorithms-to-shift-a-2d-grid-matrix-in-place/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1260.%20Shift%202D%20Grid)<br/>.cpp | EASY | GRID <BR/> SIMULATION |
+| [1260](https://leetcode.com/problems/shift-2d-grid/) | [Shift 2D Grid](https://helloacm.com/algorithms-to-shift-a-2d-grid-matrix-in-place/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1260.%20Shift%202D%20Grid)<br/>.cpp | EASY | SIMULATION <BR/> GRID |
 | [6](https://leetcode.com/problems/zigzag-conversion/) | [ZigZag Conversion](https://helloacm.com/the-string-zigzag-conversion-algorithms/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/6.%20ZigZag%20Conversion)<br/>.cpp | MEDIUM | SIMULATION <BR/> STRING |
 | [1518](https://leetcode.com/problems/water-bottles/) | [Water Bottles](https://helloacm.com/simulation-algorithm-to-compute-the-number-of-water-bottles/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1518.%20Water%20Bottles)<br/>.java | EASY | SIMULATION |
 | [1598](https://leetcode.com/problems/crawler-log-folder/) | [Crawler Log Folder](https://helloacm.com/min-number-of-operations-to-crawler-log-folder/) | [1](https://github.com/DoctorLai/ACM/tree/master/leetcode/1598.%20Crawler%20Log%20Folder)<br/>.cpp | EASY | SIMULATION |
