@@ -1,8 +1,12 @@
 # ACM
 Puzzles from ACM Online Judges and please visit my blog for Computer Science posts: [https://helloacm.com](https://helloacm.com).
 
+# Binary Search
+- https://binarysearch.com/@/justyy
+
 # Leetcode
-- https://leetcode.com/justyy/
+- https://leetcode.com/justyy
+- https://leetcode-cn.com/justyyuk
 - [Index](https://github.com/DoctorLai/ACM/blob/master/leetcode/README.md)
 
 # Timus
