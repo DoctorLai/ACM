@@ -3,6 +3,7 @@ Puzzles from ACM Online Judges and please visit my blog for Computer Science pos
 
 # Binary Search
 - https://binarysearch.com/@/justyy
+- [Index](https://github.com/DoctorLai/ACM/blob/master/binarysearch/README.md)
 
 # Leetcode
 - https://leetcode.com/justyy
