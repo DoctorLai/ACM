@@ -70,7 +70,7 @@ def process(folder):
         "type": type,
         "langs": list(langs),
         "count": str(len(files)),
-        "github": "https://github.com/DoctorLai/ACM/tree/master/binarysearch/" + id + ".%20" + title.replace(" ", "%20")
+        "github": "https://github.com/DoctorLai/ACM/tree/master/binarysearch/" + id.replace(" ", "%20")
     }        
         
     global diff_cat
