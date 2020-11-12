@@ -1,0 +1,34 @@
+class DSU {
+public:
+    DSU(int n) {
+        data.resize(n);
+        iota(begin(data), end(data), 0);
+        rank.resize(n, 0);
+    }
+    
+    int find(int x) {
+        if (x != data[x]) {
+            data[x] = find(data[x]);
+        }
+        return data[x];
+    }
+    
+    bool join(int x, int y) {
+        int px = find(x);
+        int py = find(y);
+        if (px == py) return false;
+        if (rank[px] > rank[py]) {
+            data[py] = px;
+        } else if (rank[py] > rank[px]) {
+            data[px] = py;
+        } else {
+            data[px] = py;
+            ++ rank[px];
+        }
+        return true;
+    }
+    
+private:
+    vector<int> data;
+    vector<int> rank;
+};
