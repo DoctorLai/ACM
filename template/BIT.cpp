@@ -40,4 +40,4 @@ public:
     int queryRange(int i, int j) {
         return sum(j) - sum(i - 1);
     }
-}
+};
