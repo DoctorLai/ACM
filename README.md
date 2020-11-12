@@ -1,5 +1,6 @@
 # ACM
-Puzzles from ACM Online Judges and please visit my blog for Computer Science posts: [https://helloacm.com](https://helloacm.com).
+- Puzzles from ACM Online Judges and please visit my blog for Computer Science posts: [https://helloacm.com](https://helloacm.com).
+- Some coding templates: https://github.com/DoctorLai/ACM/tree/master/template
 
 # Binary Search
 - https://binarysearch.com/@/justyy
