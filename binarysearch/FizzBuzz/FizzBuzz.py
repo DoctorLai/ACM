@@ -1,5 +1,6 @@
 # https://helloacm.com/sexy-one-liner-of-python-to-solve-the-fizzbuzz/
 # https://binarysearch.com/problems/FizzBuzz
+# EASY, ARRAY
 
 class Solution:
     def solve(self, n):
