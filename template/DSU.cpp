@@ -25,7 +25,7 @@ public:
             data[px] = py;
         } else {
             data[px] = py;
-            ++ rank[px];
+            ++ rank[py];
         }
         return true;
     }
