@@ -1,5 +1,6 @@
 // https://helloacm.com/how-to-insert-into-a-binary-search-tree-recursive-and-iterative/
 // https://leetcode.com/problems/insert-into-a-binary-search-tree/
+// MEDIUM, TREE
 
 /**
  * Definition for a binary tree node.
