@@ -1,6 +1,6 @@
 // https://helloacm.com/how-to-check-if-a-given-string-has-unique-characters/
 // https://binarysearch.com/problems/A-unique-string
-// EASY, HASH TABLE
+// EASY, HASH TABLE, STRING
 
 bool solve(string s) {
     unordered_set<char> seen;
