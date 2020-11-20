@@ -1,6 +1,6 @@
 // https://helloacm.com/can-we-make-strings-same-by-unlimited-number-of-swaps/
 // https://binarysearch.com/problems/Make-Strings-Same
-// EASY, STRING, HASH MAP
+// EASY, STRING, HASH TABLE
 
 bool solve(string s, string t) {
     unordered_map<char, int> data;
