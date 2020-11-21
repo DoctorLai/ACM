@@ -1,6 +1,6 @@
 // https://helloacm.com/single-core-cpu-scheduling-algorithm-by-using-a-priority-queue/
 // https://binarysearch.com/problems/CPU-Scheduling
-// MEDIUM, PRIORITY QUEUE, SORTING
+// MEDIUM, PRIORITY QUEUE, SORT
 
 vector<int> CPUschedulor(vector<vector<int>>& tasks) {
     struct Task {
