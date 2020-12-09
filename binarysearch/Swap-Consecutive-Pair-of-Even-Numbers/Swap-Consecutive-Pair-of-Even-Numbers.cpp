@@ -4,7 +4,7 @@
 
 vector<int> solve(vector<int>& nums) {
     int i = 0;
-    for (; i + 4 < nums.size(); i += 4) {
+    for (; i + 3 < nums.size(); i += 4) {
         swap(nums[i], nums[i + 2]);
         swap(nums[i + 1], nums[i + 3]);
     }
