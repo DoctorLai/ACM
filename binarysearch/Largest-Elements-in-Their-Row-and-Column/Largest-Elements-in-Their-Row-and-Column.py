@@ -7,17 +7,17 @@ class Solution:
         ans = 0
         row = len(matrix)
         col = len(matrix[0])
-        rows = set()
-        cols = set()
+        rows = [0 for _ in range(row)]
+        cols = [0 for _ in range(col)]
         for r in range(row):
             for c in range(col):
                 if matrix[r][c] == 1:
-                    rows.add(r)
-                    cols.add(c)
+                    rows[r] += 1
+                    cols[c] += 1
         for r in range(row):
             for c in range(col):
                 if matrix[r][c] == 0:
                     continue
-                if len(rows) == 1 and len(cols) == 1:
+                if rows[r] == 1 and cols[c] == 1:
                     ans += 1
         return ans
