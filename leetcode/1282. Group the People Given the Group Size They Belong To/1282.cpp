@@ -1,6 +1,6 @@
 // https://helloacm.com/greedy-algorithm-to-group-the-numbers-items-given-the-group-size-they-belong-to/
 // https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
-// MEDIUM, GREEDY ALGORITHM, HASH MAP
+// MEDIUM, GREEDY, HASH MAP
 
 class Solution {
 public:
