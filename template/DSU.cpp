@@ -30,6 +30,13 @@ public:
         return true;
     }
     
+    int size() {
+        int ans = 0;
+        for (int i = 0; i < data.size(); ++ i) {
+            if (i == data[i]) ans ++;
+        }
+        return ans;
+    }    
 private:
     vector<int> data;
     vector<int> rank;
