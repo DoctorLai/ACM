@@ -1,6 +1,6 @@
 # https://binarysearch.com/problems/Unique-Ab-Strings
 # https://helloacm.com/count-the-unique-ab-strings-by-permutation/
-# MATH
+# EASY, MATH
 
 class Solution:
     def solve(self, s):
