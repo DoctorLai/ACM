@@ -1,6 +1,6 @@
 // https://helloacm.com/word-formation-algorithm-using-hash-map/
 // https://binarysearch.com/problems/Word-Formation
-// EASY, HASH MAP
+// EASY, HASH TABLE
 
 int solve(vector<string>& words, string letters) {
     unordered_map<char, int> count;        
