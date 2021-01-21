@@ -1,6 +1,6 @@
 # https://helloacm.com/parentheses-grouping-algorithm/
 # https://binarysearch.com/problems/Parentheses-Grouping
-# EASY
+# EASY, STRING
 
 class Solution:
     def solve(self, s):
