@@ -6,6 +6,7 @@ public:
         data.resize(n);
         iota(begin(data), end(data), 0);
         rank.resize(n, 0);
+        count = n;
     }
     
     int find(int x) {
@@ -19,6 +20,7 @@ public:
         int px = find(x);
         int py = find(y);
         if (px == py) return false;
+        count --;
         if (rank[px] > rank[py]) {
             data[py] = px;
         } else if (rank[py] > rank[px]) {
@@ -31,13 +33,11 @@ public:
     }
     
     int size() {
-        int ans = 0;
-        for (int i = 0; i < data.size(); ++ i) {
-            if (i == data[i]) ans ++;
-        }
-        return ans;
-    }    
+        return count;
+    }   
+    
 private:
     vector<int> data;
     vector<int> rank;
+    int count;
 };
