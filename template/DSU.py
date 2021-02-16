@@ -22,6 +22,9 @@ class UnionFind:
         self.setCount -= 1
         return True
     
+    def size(self):
+        return self.setCount
+    
     def connected(self, x: int, y: int) -> bool:
         x, y = self.findset(x), self.findset(y)
         return x == y
