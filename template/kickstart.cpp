@@ -1,4 +1,6 @@
 // https://helloacm.com/c-solution-template-for-google-kickstart-contest-online-judge/
+#pragma comment(linker, "/stack:200000000")
+#pragma GCC optimize("Ofast")
 
 #include <bits/stdc++.h>
 #include <iostream>
