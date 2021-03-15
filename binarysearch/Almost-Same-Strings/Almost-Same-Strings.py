@@ -1,6 +1,6 @@
 # https://helloacm.com/hash-algorithm-to-check-a-list-containing-almost-same-strings-differ-by-one-character/
 # https://binarysearch.com/problems/Almost-Same-Strings
-# MEDIUM, HASH MAP
+# MEDIUM, HASH TABLE
 
 class Solution:
     def solve(self, words):
