@@ -17,6 +17,10 @@
 #include <unordered_set>
 #include <math.h>
  
+#include <ext/pb_ds/assoc_container.hpp>
+// using namespace __gnu_pbds;
+typedef __gnu_pbds::gp_hash_table<int, int> HASHTABLE;
+
 typedef long double LD;
 typedef long long LL;
 typedef int64_t I64;
