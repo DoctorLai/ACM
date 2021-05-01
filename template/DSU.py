@@ -22,7 +22,7 @@ class UnionFind:
         self.setCount -= 1
         return True
     
-    def size(self):
+    def sz(self):
         return self.setCount
     
     def connected(self, x: int, y: int) -> bool:
