@@ -1,6 +1,6 @@
 # https://helloacm.com/teaching-kids-programming-breadth-first-search-algorithm-to-count-the-vertical-lines-in-binary-tree/
 # https://binarysearch.com/problems/Vertical-Lines-in-Binary-Tree
-# MEDIUM, BFS
+# EASY, BFS
 
 # class Tree:
 #     def __init__(self, val, left=None, right=None):
