@@ -1,6 +1,6 @@
 // https://helloacm.com/finding-the-second-largest-digit-in-a-string/
 // https://leetcode.com/problems/second-largest-digit-in-a-string
-// EASY, STRING, HASH TABLE
+// EASY, STRING, HASH MAP
 
 class Solution {
 public:
