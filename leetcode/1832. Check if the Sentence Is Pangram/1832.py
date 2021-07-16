@@ -1,6 +1,6 @@
 # https://helloacm.com/teaching-kids-programming-check-if-the-sentence-is-pangram/
 # https://leetcode.com/problems/check-if-the-sentence-is-pangram/
-# EASY, STRING, HASH TABLE
+# EASY, STRING, HASH MAP
 
 class Solution:
     def checkIfPangram(self, sentence: str) -> bool:
