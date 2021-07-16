@@ -1,6 +1,6 @@
 // https://helloacm.com/two-pointer-sliding-window-to-compute-the-longest-substring-with-at-most-two-distinct-characters/
 // https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
-// MEDIUM, SLIDING WINDOW, TWO POINTER, HASH TABLE
+// MEDIUM, SLIDING WINDOW, TWO POINTER, HASH MAP
 
 class Solution {
 public:
