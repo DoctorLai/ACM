@@ -1,6 +1,6 @@
 // https://helloacm.com/design-a-maximum-frequency-stack/
 // https://leetcode.com/problems/maximum-frequency-stack/
-// HARD, STACK, HASH TABLE
+// HARD, STACK, HASH MAP
 
 class FreqStack {
 public:
