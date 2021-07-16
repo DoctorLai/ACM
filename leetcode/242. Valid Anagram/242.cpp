@@ -1,6 +1,6 @@
 // https://helloacm.com/how-to-check-valid-anagram-in-cc/
 // https://leetcode.com/problems/valid-anagram/
-// EASY, HASH TABLE, STRING
+// EASY, HASH MAP, STRING
 
 class Solution {
 public:
