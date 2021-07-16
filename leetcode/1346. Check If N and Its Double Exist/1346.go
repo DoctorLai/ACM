@@ -1,6 +1,6 @@
 // https://helloacm.com/golang-check-if-n-and-its-double-exist-hash-map/
 // https://leetcode.com/problems/check-if-n-and-its-double-exist/
-// EASY, HASH TABLE
+// EASY, HASH MAP
 
 func checkIfExist(arr []int) bool {
     var data = make(map[int]int)
