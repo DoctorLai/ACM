@@ -1,6 +1,6 @@
 // https://helloacm.com/how-to-summary-ranges-using-on-two-pointer-algorithm/
 // https://leetcode.com/problems/summary-ranges/
-// MEDIUM, TWO POINTERS
+// MEDIUM, TWO POINTER
 
 class Solution {
 public:
