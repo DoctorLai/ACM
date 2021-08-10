@@ -1,5 +1,6 @@
 // https://helloacm.com/how-to-add-two-strings-numerically/
 // https://leetcode.com/problems/add-strings/
+// EASY, MATH
 
 class Solution {
 public:
