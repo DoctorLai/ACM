@@ -1,6 +1,6 @@
 # https://helloacm.com/teaching-kids-programming-find-if-path-exists-in-graph-via-breadth-first-search-algorithm/
 # https://leetcode.com/problems/find-if-path-exists-in-graph/
-# EASY, BFS, Graph
+# EASY, BFS, GRAPH
 
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], start: int, end: int) -> bool:
