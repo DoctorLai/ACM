@@ -5,10 +5,14 @@ class UnionFind:
         self.setCount = n
     
     def findset(self, x: int) -> int:
-        if self.parent[x] == x:
-            return x
-        self.parent[x] = self.findset(self.parent[x])
-        return self.parent[x]
+        px = x
+        while px != self.parent[px]:
+            px = self.parent[px]
+        while x != px:
+            p = self.parent[x]
+            self.parent[x] = px
+            x = p
+        return px
     
     def unite(self, x: int, y: int) -> bool:
         x, y = self.findset(x), self.findset(y)
