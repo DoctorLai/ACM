@@ -1,6 +1,6 @@
 // https://helloacm.com/split-the-list-into-two-parts/
 // https://binarysearch.com/problems/Split-List
-// EASY, PREFIX, SUFFIX
+// EASY, PREFIX SUM, SUFFIX
 
 bool solve(vector<int>& nums) {
     if (nums.empty()) return true;
