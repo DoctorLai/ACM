@@ -1,6 +1,6 @@
 // https://helloacm.com/split-a-set-into-two-with-equal-sums-and-distinct-numbers/
 // https://binarysearch.com/problems/Set-Split
-// MEDIUM, PREFIX, SORT
+// MEDIUM, PREFIX SUM, SORT
 
 bool solve(vector<int>& nums) {
     if (nums.size() < 3) return false;
