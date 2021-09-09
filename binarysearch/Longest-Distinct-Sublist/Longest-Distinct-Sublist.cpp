@@ -1,6 +1,6 @@
 // https://helloacm.com/longest-distinct-sublist-via-sliding-window-two-pointer-algorithm/
 // https://binarysearch.com/problems/Longest-Distinct-Sublist
-// MEDIUM, TWO POINTER, SLDING WINDOW
+// MEDIUM, TWO POINTER, SLIDING WINDOW
 
 int solve(vector<int>& nums) {
     int n = static_cast<int>(nums.size());
