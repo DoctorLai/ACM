@@ -1,6 +1,6 @@
 // https://helloacm.com/using-recursive-merge-sort-algorithm-to-sort-a-linked-list-in-onlogn/
 // https://leetcode.com/problems/sort-list/
-// MEDIUM, SORT, DIVIDE-AND-CONQUER, RECURSION
+// MEDIUM, SORTING, DIVIDE-AND-CONQUER, RECURSION
 
 /**
  * Definition for singly-linked list.
