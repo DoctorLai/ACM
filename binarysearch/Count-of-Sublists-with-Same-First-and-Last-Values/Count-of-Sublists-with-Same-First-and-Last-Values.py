@@ -1,6 +1,6 @@
 # https://helloacm.com/teaching-kids-programming-count-of-sublists-with-same-first-and-last-values/
 # https://binarysearch.com/problems/Count-of-Sublists-with-Same-First-and-Last-Values
-# MEDIUM, HASH MAP
+# MEDIUM, HASH TABLE
 
 class Solution:
     def solve(self, nums):
