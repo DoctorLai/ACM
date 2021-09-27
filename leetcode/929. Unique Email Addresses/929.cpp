@@ -1,5 +1,6 @@
 // https://helloacm.com/how-to-filter-the-unique-email-addresses/
 // https://leetcode.com/problems/unique-email-addresses/
+// MEDIUM, HASH MAP
 
 class Solution {
 public:
