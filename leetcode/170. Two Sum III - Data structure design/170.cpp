@@ -1,5 +1,6 @@
 // https://helloacm.com/how-to-design-a-two-sum-data-structure/
 // https://leetcode.com/problems/two-sum-iii-data-structure-design/
+// EASY, DESIGN
 
 class TwoSum {
 public:
