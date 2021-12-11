@@ -1,5 +1,5 @@
 # https://helloacm.com/teaching-kids-programming-breadth-first-search-algorithm-to-find-bottom-left-tree-value/ 
-# https://helloacm.com/teaching-kids-programming-breadth-first-search-algorithm-to-find-bottom-left-tree-value/
+# https://leetcode.com/problems/find-bottom-left-tree-value/
 # MEDIUM, BFS
 
 # Definition for a binary tree node.
