@@ -1,5 +1,5 @@
 # https://helloacm.com/teaching-kids-programming-greedy-algorithm-to-complete-tasks/
-# https://helloacm.com/teaching-kids-programming-greedy-algorithm-to-complete-tasks/
+# https://binarysearch.com/problems/Task-Hare
 # EASY, GREEDY, TWO POINTER
 
 class Solution:
