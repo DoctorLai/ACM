@@ -1,5 +1,5 @@
 # https://helloacm.com/teaching-kids-programming-longest-substring-with-2-distinct-characters-by-sliding-window-algorithm/
-# https://helloacm.com/teaching-kids-programming-longest-substring-with-2-distinct-characters-by-sliding-window-algorithm/
+# https://binarysearch.com/problems/Longest-Substring-with-2-Distinct-Characters
 # MEDIUM, SLIDING WINDOW
 
 class Solution:
