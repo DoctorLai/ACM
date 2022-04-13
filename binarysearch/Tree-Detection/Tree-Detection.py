@@ -1,4 +1,4 @@
-# https://helloacm.com/teaching-kids-programming-tree-detection-algorithm-via-recursive-depth-first-search-determine-a-binary-tree/
+# https://helloacm.com/teaching-kids-programming-tree-detection-algorithm-via-breadth-first-search-determine-a-binary-tree/
 # https://binarysearch.com/problems/Tree-Detection
 # MEDIUM, DFS, GRAPH
 
