@@ -29,7 +29,7 @@ def insert(x):
     return "| [" + x['id'] + "](" + x['leetcode'] + ") | [" + x['title'] + "](" + x['blog'] + ") | [" + x['count'] + "](" + x['github'] + ")<br/>" + langs + " | " + link(x['diff']) + " | " + tags + " |"
 
 def process(folder):
-    print("Processing %s " % folder)
+    #print("Processing %s " % folder)
     s = folder[2:].split('.')
     title = s[1].strip()
     id = s[0]
