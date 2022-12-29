@@ -1,6 +1,6 @@
 # https://helloacm.com/teaching-kids-programming-reduce-array-size-to-the-half-via-counting-hash-table/
 # https://leetcode.com/problems/reduce-array-size-to-the-half/
-# MEDIUM, HASH TABLE
+# MEDIUM, HASH MAP
 
 class Solution:
     def minSetSize(self, arr: List[int]) -> int:        
