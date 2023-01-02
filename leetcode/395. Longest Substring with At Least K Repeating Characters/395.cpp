@@ -1,6 +1,6 @@
 // https://helloacm.com/compute-longest-substring-with-at-least-k-repeating-characters-via-divide-and-conquer-algorithm/
 // https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
-// MEDIUM, DIVIDE AND CONQUER
+// MEDIUM, DIVIDE-AND-CONQUER
 
 class Solution {
     public:
