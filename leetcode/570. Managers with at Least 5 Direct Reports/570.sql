@@ -1,5 +1,6 @@
-// https://helloacm.com/sql-inner-join-tutorial-with-example-managers-with-at-least-5-direct-reports/
-// https://leetcode.com/problems/managers-with-at-least-5-direct-reports/
+# https://helloacm.com/sql-inner-join-tutorial-with-example-managers-with-at-least-5-direct-reports/
+# https://leetcode.com/problems/managers-with-at-least-5-direct-reports/
+# MEDIUM, SQL
 
 select Name from Employee as A
 inner join (
@@ -7,4 +8,4 @@ inner join (
     from Employee
     group by ManagerId
     having count(1) >= 5           
-) as B on A.ID = B.ManagerId
+) as B on A.ID = B.ManagerId;
