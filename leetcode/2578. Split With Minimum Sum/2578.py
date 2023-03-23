@@ -1,5 +1,5 @@
-# https://leetcode.com/problems/split-with-minimum-sum/
 # https://helloacm.com/teaching-kids-programming-split-with-minimum-sum-sort-the-digits-greedy/
+# https://leetcode.com/problems/split-with-minimum-sum/
 # EASY, MATH, SORTING, GREEDY
 
 class Solution:
