@@ -25,6 +25,7 @@ class UnionFind:
         self.setCount -= 1
         return True
     
+    @property
     def sz(self):
         return self.setCount
     
