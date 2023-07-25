@@ -1,6 +1,6 @@
 # https://helloacm.com/teaching-kids-programming-minimum-operations-to-reduce-an-integer-to-0-math-analysis-another-recursion/
 # https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/
-# MEDIUM, RECURSION, MATH
+# MEDIUM, RECURSION, MATH, DP
 
 class Solution:
     def minOperations(self, n: int) -> int:
