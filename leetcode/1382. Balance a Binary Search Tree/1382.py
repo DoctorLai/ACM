@@ -1,6 +1,6 @@
-# https://helloacm.com/teaching-kids-programming-recursive-algorithms-to-balance-a-binary-search-tree/
+# https://helloacm.com/how-to-balance-a-binary-search-tree-using-recursive-inorder-traversal-algorithm/
 # https://leetcode.com/problems/balance-a-binary-search-tree/
-# MEDIUM, RECURSION
+# MEDIUM, RECURSION, BINARY TREE
 
 # Definition for a binary tree node.
 # class TreeNode:
