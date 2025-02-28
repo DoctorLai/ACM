@@ -1,6 +1,6 @@
 # https://helloacm.com/teaching-kids-programming-another-bfs-to-generate-binary-strings-without-adjacent-zeros/
 # https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/
-# MEDIUM, BFS, RECURSION
+# MEDIUM, BFS
 
 from typing import List
  
